@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .forEach() executes a privided function once for each array element where as .map() creates a new array with the results of calling a provided function on every element in the calling array.
+
 2. What is the difference between a function and a method?
+
+    A method is a function that is associated with an object 
 
 3. What is closure?
 
+    A closure is a function together with a referencing environment
+
 4. Describe the four rules of the 'this' keyword.
 
+    a. Whenever a function is contained in the global scope, the value of this inside of that function will be the window object.
+    b. Whenever a function is called by a preceding dot, the object before that dot is this.
+    c. Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
+    d. Whenever JavaScript’s call or apply method is used, this is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+    The super keyword here is used to call the parent class explicitly.
 
 ## Project Set up
 
@@ -47,9 +60,9 @@ Follow these steps to set up and work on your project:
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
